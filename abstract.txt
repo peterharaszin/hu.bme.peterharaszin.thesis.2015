@@ -1,0 +1,14 @@
+viselkedésmodellezés - behavioral modeling
+Méréstechnika és Információs Rendszerek Tanszék - Department of Measurement and Information Systems
+BME-VIK - BME/VIK
+mérnökinformatikus szak - BSc Major in Computer Science and Engineering Informatics course
+Rendszermodellezés - System Modeling
+állapotgépmodell - statechart
+modellezőeszköz - modeling tool
+eljárás - ~technics (?)
+beépülő modul - plug-in
+
+A mérnöki modellezésben jelentős szerep jut a viselkedésmodellezésnek, különösen az állapot alapú (Statechart) és folyamat alapú (Business Process) formalizmusoknak. A Méréstechnika és Információs Rendszerek Tanszéken folyó oktatásban már eddig is megjelentek ezek a modellek, például önálló házi feladat lehet egy megadott szöveges specifikációnak megfelelően viselkedő modell elkészítése.
+A programozás oktatásában elterjedtek a házi feladatok automatikus értékelését végző eszközök; ez az ellenőrzés tesztesetek alapján, tehát dinamikusan (a működést végrehajtva) és szúrópróbaszerűen történik. Viselkedésmodell jellegű feladatoknál erre még nem ismert kiforrott megoldás. Ugyanakkor a viselkedésmodellek jellegükből adódóan a működésük statikus (futtatás nélküli) elemzését is lehetővé tehetnek bizonyos szempontok szerint.
+A téma motivációját az adja, hogy a BME VIK mérnökinformatikus BSc képzésében oktatott Rendszermodellezés c. tárgy teljesítésének egyik követelménye az, hogy a hallgatók egy konkrét viselkedésmodellező technológiával (Yakindu Statechart Tools) készítsenek el egy állapotgépmodellt. A tárgy 2015 tavaszától a korábbi hetedik féléves oktatás helyett az új tanulmányi rend keretében már a második félévtől lesz megtartva; ebből következően a korábbiaknál jóval nagyobb hallgatói létszámra lehet számítani, és ez egyben jóval több ellenőrizendő házi feladatot is jelent.
+A szakdolgozat célja az, hogy a modellezőeszközzel elkészített házi feladatok tömeges ellenőrzését sikerüljön hatékonyabbá tenni, és az eleve rossz megoldásokat kiszűrni, ezzel az ellenőrzéssel járó terhek egy részét levéve az oktatók válláról. A szakdolgozat keretében megismerkedtem a Yakindu Statechart Tools technológiával felhasználói és fejlesztői szinten, és megvizsgáltam az eszközzel elkészíthető modellek automatikus feldolgozásának, statikus ellenőrzésének, dinamikus futtatásának (tesztelésének) módját és lehetőségeit. A dolgozatban megterveztem, megvalósítottam és kiértékeltem egy olyan szoftvereszközt, amely képes a Yakindu feladatmegoldások tömeges ellenőrzésére statikus és dinamikus eljárásokkal. A feladat megvalósítása érdekében az Eclipse fejlesztőkörnyezethez készítettem beépülő modulokat, amelyek ... (majd folytatom)
